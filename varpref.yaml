@@ -18,3 +18,8 @@
     #   course: ansible from task
     debug:
         msg: "hi , this is {{ course }} "
+
+
+#cmd
+#task
+#file
