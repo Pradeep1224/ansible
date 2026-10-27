@@ -2,8 +2,8 @@
   hosts: local
   connection: local
 
-  vars: 
-    course: "ansible from PLAY"
+  # vars: 
+  #   course: "ansible from PLAY"
   # vars_prompt:
   # - name: course
   #   prompt: Please enter your course
@@ -20,7 +20,11 @@
         msg: "hi , this is {{ course }} "
 
 
+
+
+#variable preference by ansible
 #cmd
 #task
 #file
 #prompt
+#play 
