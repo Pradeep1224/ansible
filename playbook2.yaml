@@ -4,3 +4,4 @@
   tasks: #taks or modules or collection
   - name: ping localhost
     ansible.builtin.debug:
+      msg: "Hello ansible..."
