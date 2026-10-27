@@ -6,6 +6,6 @@
     trainer: pradeep
     duration: 10 hrs
   tasks: 
-  -name: print the vars
+  - name: print the vars
     debug:
       msg: "hi , this is {{ course }} from {{ trainer }}, duration is {{ duration }}"
