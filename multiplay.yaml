@@ -17,7 +17,7 @@
   - name: PLAY-2 and TASK-1
     debug: 
       msg: "Hello from PLAY-1 and TASK-1"
-  - name: PLAY-1 and TASK-2
+  - name: PLAY-2 and TASK-2
     debug: 
       msg: "Hello from PLAY-2 and TASK-2"
       
