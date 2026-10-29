@@ -10,5 +10,5 @@
       msg: |
         osfamily: {{ ansible_facts['os_family'] }}
         privateip: {{ansible_fact.default_ipv4.address}}
-        privateip: {{ ansible_fact['default_ipv4']['address' }}
+        privateip: {{ ansible_fact['default_ipv4']['address'] }}
         
