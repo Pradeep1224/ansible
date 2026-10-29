@@ -10,10 +10,10 @@
     - shell
     - ansible
     - terraform
-  more_details:    #dict/map
-    trainer: pradeep
-    months: 5
-  exact_duration-months: 4.5  
+    more_details:    #dict/map
+      trainer: pradeep
+      months: 5
+    exact_duration-months: 4.5  
   tasks:
   - name : print info and type
     debug:
