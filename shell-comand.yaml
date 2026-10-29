@@ -5,6 +5,7 @@
   - name: test the command module
     #command: cat /etc/passwd | grep ec2-user  (failed command module bcz of piping and no acess to env or variables)
     shell: cat /etc/passwd | grep ec2-user 
+    register: ec2_user_output
   - name: print the output
     debug:
       msg: "{{ec2_user_output}}"
