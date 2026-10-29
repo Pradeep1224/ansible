@@ -8,8 +8,8 @@
     - { name: 'mysql', state: 'present'} # for adding packages
     - { name: 'git', state: 'present'}
     - { name: 'httpd', state: 'present'}
-    - { name: 'net-tools', state: 'present'}
-    - { name: 'htop', state: 'absent'}
+    - { name: 'net-tools', state: 'absent'}
+    - { name: 'htop', state: 'present'}
   tasks:
     - name: installing packages
       package:
