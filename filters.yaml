@@ -10,4 +10,4 @@
       msg: "HI,{{person_name | default('pradeep')}}"
   - name: convert string to list
     debug:
-      msg: "{{topics | split(',') | trim()}}"
+      msg: "{{topics | split(',') | split('') | trim()}}"
