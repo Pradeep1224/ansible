@@ -9,6 +9,7 @@
       - pradeep
       - kondaboina
       - yadav
+    topic: ANSIBLE
   tasks:
   - name: print the name
     debug:
@@ -18,6 +19,8 @@
       msg: "{{ topics | split(',') | map('trim') | list }}"
   - name: convert  list to string
     debug:
-      msg: |
-        full name: {{ names | join(' ') }}
-        "{{ 'full name: ' ~ (names | join(' ')) }}"
+      msg: full name: {{ names | join(' ') }}
+  - name: convert to lower case
+    debug:
+      msg: " {{ topic | lower }}"
+      
