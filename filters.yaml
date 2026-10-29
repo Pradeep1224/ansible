@@ -5,10 +5,10 @@
   vars:
     topics: linux, shell, ansible, docker, terraform
 
-  names:
-    - pradeep
-    - kondaboina
-    - yadav
+    names:
+      - pradeep
+      - kondaboina
+      - yadav
   tasks:
   - name: print the name
     debug:
