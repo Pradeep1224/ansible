@@ -5,7 +5,7 @@
   tasks:
   - name: create user
     user:
-      name: roboshop # useradd roboshop
+      name: pradeep # useradd roboshop
 
 
 
