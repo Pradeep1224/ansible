@@ -18,4 +18,6 @@
       msg: "{{ topics | split(',') | map('trim') | list }}"
   - name: convert  list to string
     debug:
-      msg: "full name: {{ names | join( ) }}"
+      msg: |
+        "full name: {{ names | join(' ') }}"
+        "{{ 'full name: ' ~ (names | join(' ')) }}"
