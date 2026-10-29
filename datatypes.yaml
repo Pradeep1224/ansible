@@ -21,6 +21,6 @@
         course: {{course}} : {{course | type_debug}}
         duraton: {{duration_hrs}} : {{duration_hrs | type_debug}}
         is_live_session: {{is_live_session}} : {{is_live_session | type_debug}}
-        topics are : {{topics}} : {{topics | type_debug}}"
+        topics are : {{topics}} : {{topics | type_debug}}
         more_details : {{more_details}} : {{more_details | type_debug}}
         duraton: {{exact_duration_months}} : {{exact_duration_months | type_debug}}
