@@ -2,7 +2,7 @@
   hosts: local
   connection: local 
   vars:
-    course: "AIOps with devsecops on aws" #string
+    course: "AIOps"     #string
     duration_hrs: 150  #number int
     is_live_session: true #bolean
     topics:  #list
