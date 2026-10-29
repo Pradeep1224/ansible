@@ -19,5 +19,5 @@
   - name: convert  list to string
     debug:
       msg: |
-        "full name: {{ names | join(' ') }}"
+        full name: {{ names | join(' ') }}
         "{{ 'full name: ' ~ (names | join(' ')) }}"
