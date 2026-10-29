@@ -1,6 +1,7 @@
 - name: printing about os 
   hosts:  local
   connection: local
+  become: yes
   tasks:
   - name: whether os is redhat or not
     debug:
