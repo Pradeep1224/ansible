@@ -5,3 +5,10 @@
   - name: print the facts
     debug:
       msg: "{{ansible_facts}}"
+  - name: printing sime information from facts 
+    debug: 
+      msg: |
+        osfamily: {{ ansible_facts['os_family'] }}
+        privateip: {{ansible_fact.default_ipv4.address}}
+        privateip: {{ ansible_fact['default_ipv4']['address' }}
+        
