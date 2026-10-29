@@ -1,0 +1,13 @@
+- name: demo on filters
+  hosts: local
+  connection: local
+
+  vars:
+    topics: linux, shell, ansible, docker, terraform
+  tasks:
+  - name: print the name
+    debug:
+      msg: "HI,{{person_name | default('pradeep')}}"
+  - name: convert string to list
+    debug:
+      msg: "HI,{{topics | split(',') | trim}}"
