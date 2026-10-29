@@ -1,0 +1,24 @@
+- name: create user
+  connection: local
+  hosts: local
+  become: yes
+  tasks:
+  - name: create user
+    user:
+      name: roboshop # useradd roboshop
+
+
+
+#       ---
+# - name: Manage Linux Users
+#   hosts: all
+#   become: yes  # Required to run tasks with root/sudo privileges
+  
+#   tasks:
+#     - name: Create a new system user
+#       ansible.builtin.user:
+#         name: johnd
+#         comment: "John Doe"
+#         shell: /bin/bash
+#         create_home: yes
+#         state: present
